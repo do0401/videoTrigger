@@ -23,6 +23,13 @@
 					width="630"
 					@loadedmetadata="getVideoInfo"
 				></video> -->
+				<video
+					id="video"
+					src="https://cuts.diamond.milb.com/Homebase/2020/2020-02/04/333a4bae-1997005b-4c4ab625-csvm-diamondx64-asset_640x360_29_960K.mp4"
+					controls
+					width="630"
+					@loadedmetadata="getVideoInfo"
+				></video>
 				<!-- <video
 					id="video"
 					src="https://play-tv.kakao.com/embed/player/cliplink/406524676?service=daum_sports"
@@ -30,7 +37,7 @@
 					width="630"
 					@loadedmetadata="getVideoInfo"
 				></video> -->
-				<iframe
+				<!-- <iframe
 					title="우리흥의 완벽한 계획! 팀을 승리로 이끄는 리그 9호골! / 후반 45+4분"
 					id="video"
 					width="640"
@@ -41,7 +48,7 @@
 					scrolling="no"
 					@loadedmetadata="getVideoInfo"
 					allow="autoplay"
-				></iframe>
+				></iframe> -->
 			</v-row>
 			<v-row>
 				<v-textarea
